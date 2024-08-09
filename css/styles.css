@@ -1,0 +1,312 @@
+/* Mobile 320 px*/
+@font-face {
+    font-family: "TT Lakes Regular";
+    src: url("../fonts/TTLakes-Regular.ttf");
+}
+@font-face {
+    font-family: "TT Lakes Bold";
+    src: url("../fonts/TTLakes-Bold.ttf");
+}
+@font-face {
+    font-family: "TT Lakes Medium";
+    src: url("../fonts/TTLakes-Medium.ttf");
+}
+body{
+    width: 100%;
+    margin: 0;
+    font-family: "TT Lakes Regular", "sens-serif";
+    background-color: #F8F8F8;
+}
+li {
+    list-style-type: none;
+}
+hr, h1, ul, p{ margin: 0; padding: 0 }
+
+/* Header */
+.header, .content__top-box, .content{
+    margin-bottom: 24px;
+}
+.header {
+    display: flex;
+    width: inherit;
+    height: 87px;
+    align-items: center;
+    border-bottom: 1px solid #D9FFF5;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.container-positioner {
+    display: inherit;
+    width: inherit;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.container-positioner--header {
+    margin-top: 24px;
+    margin-bottom: 17.6px;
+}
+.header__section--left, .header__section--right {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.header__section--right {
+    margin-left: auto;
+}
+.gray-line {
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+    border: none;
+    border-radius: 1px;
+    margin-right: 20px;
+}
+.header__section--right .nav__list {
+    display: flex;
+}
+
+.header .menu__icon {
+    background-image: url("/images/icons/burger.svg");
+    margin-right: 16.73px;
+}
+.header__icon {
+    background-image: url("/images/icons/logo.svg");
+    width: 96.55px;
+    height: 50.81px;
+    margin-right: 16.73px;
+}
+.icon-1 {
+    background-image: url("/images/icons/repair.svg");
+    margin-right: 16px;
+}
+.icon-2 {
+    background-image: url("/images/icons/checkstatus.svg");
+}
+.icon {
+    width: 40px;
+    height: 40px;
+}
+.header__nav .nav__link p{
+    display: none;
+}
+/* Main - title */
+.blue-line {
+    width: 8px;
+    height: 40px;
+    background-color: #41F6D7;
+    border: none;
+    border-radius: 3px;
+}
+.content__top-box {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.content__top-box .blue-line {
+    justify-content: left;
+}
+.content .content__title{
+    font-family: "TT Lakes Bold", "sens-serif";
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    z-index: 999;
+}
+
+/* Main - nav */
+.content__nav {
+    height: 40px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    margin-bottom: 24px;
+}
+.content__nav::-webkit-scrollbar {
+    display: none;
+}
+.content__nav .nav__list {
+    display: inline-flex;
+}
+.content__nav .nav__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    box-sizing: border-box;
+}
+.nav__link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+.content__nav .nav__link {
+    display: block;
+    color: #7E7E82;
+}
+.nav__list .nav__item {
+    border: 2px solid rgba(184,255,236, 0);;
+    border-radius: 6px;
+}
+.nav__list .nav__item.active {
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+.nav__item.active .nav__link, .content__nav .nav__link {
+    margin-left: 16px;
+    margin-right: 9.3px;
+}
+.content__nav .nav__item:last-child {
+    margin-right: 16px;
+}
+/* Градиент в меню */
+.content__container--gradient {
+    position: relative;
+    overflow: hidden;
+    margin-left: 16px;
+}
+.content__container--gradient::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 24px;
+    pointer-events: none;
+    z-index: 1;
+}
+.content__container--gradient::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(248, 248, 248, 1), rgba(248, 248, 248, 0.01));
+}
+
+
+/* Main - text */
+.content__text p, .text-show-more {
+    margin-bottom: 16px;
+}
+.text-show-more {
+    display: flex;
+    align-items: center;
+}
+.text-show-more__icon {
+    background-repeat: no-repeat;
+    background-image: url("/images/icons/icon.svg");
+    width: 7.4px;
+    height: 10.3px;
+    margin-right: 16.3px;
+}
+.content__button {
+    font-family: "TT Lakes Medium", "sens-serif";
+    background: none;
+    border: none;
+}
+.content__image img{
+    height: 176px;
+    position: absolute;
+    left: 0;
+}
+.content__text--paragraf {
+    max-height: 7lh;
+    overflow: hidden;
+}
+
+
+/* Middle screen 321 px */
+@media (min-width: 321px) {
+    .container-positioner {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    /* Header */
+    .header__section--left > .header__menu {
+        order: 1;
+    }
+    .header__section--left > .gray-line {
+        order: 2;
+    }
+    .header__section--left > .header__icon {
+        order: 3;
+    }
+
+    /* Main */
+    .content__container--gradient {
+        margin-left: 24px;
+    }
+    .content__image img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 550px) {
+    /* Main */
+    .content__second-part {
+        display: flex;
+    }
+    .content__second-part .content__text,  .content__second-part .content__image{
+        width: 50%;
+    }
+    .content__text {
+        margin-right: 48px;
+    }
+    .content__second-part .content__image img{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+    .content__image img {
+        border-radius: 10px;
+    }
+}
+
+/* High screen 769 px */
+@media (min-width: 768px) {
+    .container-positioner {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    /* Header */
+    .header {
+        position: absolute;
+        top: 0;
+        background-color: inherit;
+    }
+    .header__section--left {
+        display: none;
+    }
+    .header__nav .nav__link {
+        display: flex;
+        align-items: center;
+    }
+    .header__nav .nav__link p{
+        font-family: "TT Lakes Medium", "sens-serif";
+        color: #1B1C21;
+        display: block;
+        margin-right: 8px;
+    }
+
+
+
+    /* Main */
+    .main {
+        margin-top: 24px;
+    }
+    .content__container--gradient {
+        margin-left: 35px;
+    }
+    .content__nav {
+        height: auto;
+    }
+    .content__nav .nav__list {
+        flex-wrap: wrap;
+    }
+    .content__text--paragraf {
+        max-height: max-content;
+        overflow: hidden;
+    }
+    .content__text {
+        margin-right: 36px;
+    }
+
+}
