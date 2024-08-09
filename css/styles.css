@@ -96,14 +96,14 @@ hr, h1, ul, p{ margin: 0; padding: 0 }
     background-color: #41F6D7;
     border: none;
     border-radius: 3px;
+    position: absolute;
+    left: -4px;
+    clip-path: inset(0 0 0 50%);
 }
 .content__top-box {
     display: flex;
     align-items: center;
     height: 40px;
-}
-.content__top-box .blue-line {
-    justify-content: left;
 }
 .content .content__title{
     font-family: "TT Lakes Bold", "sens-serif";
@@ -271,6 +271,7 @@ hr, h1, ul, p{ margin: 0; padding: 0 }
         position: absolute;
         top: 0;
         background-color: inherit;
+        border: none;
     }
     .header__section--left {
         display: none;
@@ -291,6 +292,11 @@ hr, h1, ul, p{ margin: 0; padding: 0 }
     /* Main */
     .main {
         margin-top: 24px;
+    }
+    .blue-line {
+        clip-path: none;
+        left: 0;
+        width: 3px;
     }
     .content__container--gradient {
         margin-left: 35px;
