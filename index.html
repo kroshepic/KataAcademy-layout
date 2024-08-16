@@ -11,49 +11,39 @@
 <body>
     <header class="header">
         <div class="container-positioner container-positioner--header">
-            <div class="header__section--left">
-                <!-- Пустые дивы заменить на button + img -->
-                <button class="menu-icon__button button">
-                    <img src="images/icons/burger.svg" alt="Иконка меню" class="menu-icon__img icon">
+            <div class="header__section--left"> 
+                <button class="header__menu-btn button">
+                    <img src="images/icons/burger.svg" alt="Иконка меню" class="header__menu-img icon">
                 </button>
                 <img  class="header__logo" src="images/icons/logo.svg" alt="Логотип сайта">
-
-                <!--<hr class="gray-line"> заменил на -->
             </div>
 
-            <div class="header__section--right">
-                <nav class="nav header__nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">
-                                <!-- Пустой div заменить на button + img -->
-                                <button class="button">
-                                    <p class="button__title-text">Оставить заявку</p>
-                                    <img class="icon-1 icon" src="images/icons/repair.svg" alt="Иконка оставить заявку">
-                                </button>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">
-                                <!-- Пустой div заменить на button + img -->
-                                <button class="button">
-                                    <p class="button__title-text">Статус ремонта</p>
-                                    <img class="icon-2 icon" src="images/icons/checkstatus.svg" alt="Иконка статус ремонта">
-                                </button>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="nav header__nav header__section--right">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <button class="button">
+                                <p class="button__title-text">Оставить заявку</p>
+                                <img class="icon-1 icon" src="images/icons/repair.svg" alt="Иконка оставить заявку">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <button class="button">
+                                <p class="button__title-text">Статус ремонта</p>
+                                <img class="icon-2 icon" src="images/icons/checkstatus.svg" alt="Иконка статус ремонта">
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main class="main">
         <article class="content">
-            <div class="container-positioner">
-                <div class="content__top-box">
-                    <!--<hr class="blue-line"> заменил на content__title::before -->
-                    <h1 class="content__title">Услуги и сервисы</h1>
-                </div>
+            <div class="content__top-box container-positioner">
+                <h1 class="content__title">Услуги и сервисы</h1>
             </div>
             <div class="content__container--gradient">
                 <nav class="nav content__nav">
@@ -68,21 +58,19 @@
                 </nav>
             </div>
 
-            <div class="container-positioner content__second-part">
+            <section class="container-positioner content__second-part">
                 <div class="content__text">
                     <div class="content__text--paragraf">
                         <p class="paragraf paragraf-1">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
                         <p class="paragraf paragraf-2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
                     </div>
-                    <!-- Убрал обертку, заменил div на button + img -->
                     <button class="content__button button">
                         <img class="text-show-more__icon" src="images/icons/icon.svg" alt="">
                         Читать далее
                     </button>
                 </div>
-                <!-- Выкинул обертку -->
                 <img class="content__image" src="/images/page-pic.jpg" alt="CPS">
-            </div>
+            </section>
         </article>
     </main>
     <footer class="footer"></footer>

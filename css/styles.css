@@ -1,3 +1,4 @@
+/* Общие */
 @font-face {
     font-family: "TT Lakes Regular";
     src: url("../fonts/TTLakes-Regular.ttf");
@@ -64,9 +65,10 @@ img { border: none;}
 .header__section--right .nav__list {
     display: flex;
 }
-.header .menu-icon__img {
+.header .header__menu-img {
     margin-right: 16.73px;
 }
+/* header__logo - общие стили */
 .header__logo {
     width: 96.55px;
     height: 50.81px;
@@ -90,7 +92,6 @@ img { border: none;}
 .button:hover, .nav__link:hover{
     opacity: 0.7;
     cursor: pointer;
-    transition-duration: 1s;
 }
 
 /* Main - title */
@@ -218,7 +219,7 @@ img { border: none;}
         margin-right: 24px;
     }
     /* Header */
-    .header .menu-icon__button::after{
+    .header .header__menu-btn::after{
         content: "";
         width: 2px;
         height: 32px;
