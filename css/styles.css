@@ -88,12 +88,15 @@ img { border: none;}
 .header__nav .nav__link p{
     display: none;
 }
-/* hover интерактивным элементам */
-.button:hover, .nav__link:hover{
+
+.button:hover, .nav__link:hover,
+.button:hover, .link:hover,
+.address__email:hover,
+.address__phone:hover{
     opacity: 0.7;
     cursor: pointer;
+    transition-duration: 1s;
 }
-
 /* Main - title */
 .main .content__title::before {
     content: "";
@@ -334,4 +337,117 @@ img { border: none;}
     .content__button {
         margin-top: 13px;
     }
+}
+
+
+/* БЛОК 4 ПРОДВИНУТАЯ СТИЛИСТИКА : */
+.container-positioner--modal-menu {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+.modal-menu {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    position: absolute;
+    left: 0;
+    width: 320px;
+    box-shadow: 16px 0px 52px 0px #0E185033,
+    -2px 0px 4px 0px #454F7E05;
+}
+
+
+/* Modal Header */
+.container-positioner--modal-menu__top {
+    margin-top: 18.23px;
+    margin-bottom: 42.27px;
+}
+.modal-menu .modal-menu__top {
+    display: flex;
+}
+.modal-menu .modal-menu__close-icon {
+    margin-right: 16.73px;
+}
+.modal-menu .modal-menu__search-btn {
+    margin-left: auto;
+}
+.modal-menu__logo {
+    margin-right: 16.73px;
+}
+
+
+/* Modal Middle */
+.link {
+    text-decoration: none;
+}
+
+
+.modal-menu .modal-menu__middle .nav__li {
+    display: flex;
+    height: 32px;
+    margin-bottom: 26px;
+}
+.modal-menu .modal-menu__middle .nav__li.active::before {
+    content: "";
+    display: table;
+    width: 8px;
+    height: 32px;
+    background-color: #41F6D7;
+    position: absolute;
+    left: -4px;
+    border-radius: 6px;
+}
+.modal-menu .modal-menu__middle .nav__link,
+.modal-menu .address__email,
+.modal-menu .modal-menu__langs .langs__li a{
+    font-family: "TT Lakes Medium";
+    color: #1B1C21;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.modal-menu__adress {
+    margin-bottom: 40px;
+}
+.modal-menu__langs {
+    margin-bottom: 32px;
+}
+.modal-menu .modal-menu__middle .nav__li.active a,
+.modal-menu .langs__li.active a{
+    color: #7E7E82;
+    align-self: center;
+}
+
+
+/* Modal Bottom */
+.modal-menu .modal-menu__bottom {
+    margin-top: auto;
+}
+.modal-menu .links,
+.modal-menu .langs {
+    display: flex;
+}
+.modal-menu .modal-menu__links {
+    margin-bottom: 16px;
+}
+.modal-menu .modal-menu__links .button {
+    margin-right: 16px;
+}
+.modal-menu .address__email,
+.modal-menu .address__phone {
+    display: block;
+    text-decoration: none;
+}
+.modal-menu .address__email {
+    margin-bottom: 12px;
+}
+.modal-menu .address__phone {
+    font-family: "TT Lakes Bold";
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    color: #1B1C21;
+}
+.modal-menu .modal-menu__langs .langs__li {
+    margin-right: 7px;
 }
