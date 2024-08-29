@@ -110,8 +110,19 @@ function hiddenCloseclick() {
             }
         }
     }
-    if (windowWidth > 1015) {
+    if (windowWidth > 1015 && windowWidth <= 1375) {
         for(let i = 8; i < brandsItem.length; i++) {
+            if (brandsItem[i].classList.contains('hidden')){
+                brandsItem[i].classList.remove('hidden');
+                brandsButtonShow.textContent = 'Скрыть';
+            } else {
+                brandsItem[i].classList.add('hidden');
+                brandsButtonShow.textContent = 'Показать все';
+            }
+        }
+    }
+    if (windowWidth > 1375) {
+        for(let i = 10; i < brandsItem.length; i++) {
             if (brandsItem[i].classList.contains('hidden')){
                 brandsItem[i].classList.remove('hidden');
                 brandsButtonShow.textContent = 'Скрыть';
