@@ -94,6 +94,10 @@ document.addEventListener('DOMContentLoaded', function () {
 // Работа с кнопкой "Показать все" / "Скрыть"
 let brandsButtonShow = brands.querySelector('.brands__btn');
 
+// Иконки
+let iconRotateBtn = '<img class="text-show-more__icon text-show-more__icon--rotate" src="images/icons/icon.svg" alt="">Скрыть';
+let iconNonRotateBtn = '<img class="text-show-more__icon text-show-more__icon--non-rotate" src="images/icons/icon.svg" alt="">Показать все';
+
 document.addEventListener("DOMContentLoaded", hiddenCloseclick);
 brandsButtonShow.addEventListener("click", hiddenCloseclick);
 
@@ -103,10 +107,10 @@ function hiddenCloseclick() {
         for(let i = 6; i < brandsItem.length; i++) {
             if (brandsItem[i].classList.contains('hidden')){
                 brandsItem[i].classList.remove('hidden');
-                brandsButtonShow.textContent = 'Скрыть';
+                brandsButtonShow.innerHTML = iconRotateBtn;
             } else {
                 brandsItem[i].classList.add('hidden');
-                brandsButtonShow.textContent = 'Показать все';
+                brandsButtonShow.innerHTML = iconNonRotateBtn;
             }
         }
     }
@@ -114,10 +118,10 @@ function hiddenCloseclick() {
         for(let i = 8; i < brandsItem.length; i++) {
             if (brandsItem[i].classList.contains('hidden')){
                 brandsItem[i].classList.remove('hidden');
-                brandsButtonShow.textContent = 'Скрыть';
+                brandsButtonShow.innerHTML = iconRotateBtn;
             } else {
                 brandsItem[i].classList.add('hidden');
-                brandsButtonShow.textContent = 'Показать все';
+                brandsButtonShow.innerHTML = iconNonRotateBtn;
             }
         }
     }
@@ -125,10 +129,12 @@ function hiddenCloseclick() {
         for(let i = 10; i < brandsItem.length; i++) {
             if (brandsItem[i].classList.contains('hidden')){
                 brandsItem[i].classList.remove('hidden');
-                brandsButtonShow.textContent = 'Скрыть';
+                brandsButtonShow.innerHTML = iconRotateBtn;
+
+
             } else {
                 brandsItem[i].classList.add('hidden');
-                brandsButtonShow.textContent = 'Показать все';
+                brandsButtonShow.innerHTML = iconNonRotateBtn;
             }
         }
     }
