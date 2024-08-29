@@ -563,6 +563,12 @@ address { font-style: normal; display: inherit}
 .hidden {
     display: none !important;
 }
+.text-show-more__icon--rotate {
+    transform: rotate(180deg);
+}
+.text-show-more__icon--non-rotate {
+    transform: rotate(0deg);
+}
 @media (min-width: 576px) {
     .brands__container {
         margin-right: 24px;
@@ -587,14 +593,14 @@ address { font-style: normal; display: inherit}
     .brands .brands__btn {
         margin-bottom: 14px;
     }
-    .brands .brands__btn::before {
+    /*.brands .brands__btn::before {
         content: "";
         display: table;
         width: 7.4px;
         height: 11.3px;
         background-image: url('/images/icons/icon.svg');
         margin-right: 17.3px;
-    }
+    }*/
     .brands .brands__title::after,
     .brands .brands__title::before {
         height: 56px;
