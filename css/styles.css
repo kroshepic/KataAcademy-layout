@@ -536,11 +536,11 @@ body{
 .brands__btn:focus, button:active {
     outline: none;
 }
-.brands__text-show-more__icon {
+.brands__text-show-more-icon {
     transform: rotate(0deg);
     transition-duration: 0.3s;
 }
-.brands__text-show-more__icon.text-show-more__icon--rotate {
+.brands__text-show-more-icon.text-show-more__icon--rotate {
     transform: rotate(180deg);
     transition-duration: 0.3s;
 }
