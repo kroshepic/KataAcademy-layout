@@ -13,21 +13,9 @@
 }
 body{
     width: 100%;
-    margin: 0;
     font-family: "TT Lakes Regular", "sens-serif";
     background-color: #F8F8F8;
 }
-li { list-style-type: none; }
-hr, h1, h2, ul, p, button, img{ margin: 0; padding: 0 }
-h2, ul {
-    padding-inline-start: inherit;
-    font-weight: normal;
-    margin-block-start: auto;
-    margin-block-end: auto;
-}
-img { border: none;}
-.button {  background: none; border: none; }
-address { font-style: normal; display: inherit}
 /* Mobile 320 px*/
 /* Header */
 .header, .content__top-box, .content{
@@ -460,13 +448,8 @@ address { font-style: normal; display: inherit}
 
 
 /* БЛОК 5 JAVASCRIPT В БРАУЗЕРЕ : */
-.container {
+.homepage-brands {
     margin-left: 16px;
-}
-.brands__container {
-    height: 218px;
-}
-.brands {
     background-color: #F8F8F8;
 }
 .h2-title {
@@ -476,40 +459,30 @@ address { font-style: normal; display: inherit}
     color: #7E7E82;
     text-transform: uppercase;
 }
-
-/* При экспорте качество сильно пострадало, так что скачал изображения с исходными размерами */
-/* По вопросу, несколько селекторов указываю через запятую сам, это не плагин и т.п. */
-.brands__logo--1{ height: 32px; }
-.brands__logo--2 { width: 116px; }
-.brands__logo--3 { width: 44px; }
-.brands__logo--4,
-.brands__logo--5,
-.brands__logo--8 { width: 128px; }
-.brands__logo--6 { width: 52px; }
-.brands__logo--7 { width: 94px; }
-
 .brands .brands__title {
-    margin-top: 16px;
-    background-color: #fff;
-    height: 64px;
-    box-sizing: border-box;
-    margin-right: 16px;
-    width: 100%;
-}
-/* Для фона шире контейнера */
-.brands .brands__title::after,
-.brands .brands__title::before {
-    content: "";
-    background-color: #fff;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
-    z-index: -1;
+    padding: 16px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+
 }
-.brands .brands__nav {
-    margin-top: 16px;
+.brands .brands__title::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transition: background-color 0.3s ease;
+}
+.brands .brands__title:hover::after {
+    border-top: 1px solid #D9FFF5;
+}
+.brands .brands__container {
+    margin-top: 96px;
 }
 .brands .brands__list {
     display: flex;
@@ -560,25 +533,53 @@ address { font-style: normal; display: inherit}
     background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
 
 }
-.hidden {
-    display: none !important;
+.brands__btn:focus, button:active {
+    outline: none;
 }
-.text-show-more__icon--rotate {
-    transform: rotate(180deg);
-}
-.text-show-more__icon--non-rotate {
+.brands__text-show-more__icon {
     transform: rotate(0deg);
+    transition-duration: 0.3s;
 }
+.brands__text-show-more__icon.text-show-more__icon--rotate {
+    transform: rotate(180deg);
+    transition-duration: 0.3s;
+}
+.brands__btn--rotate::after {
+    content: "Скрыть";
+    display: table;
+}
+.brands__btn--non-rotate::after {
+    content: "Показать все";
+    display: table;
+}
+.brands .brands__btn {
+    display: none;
+    margin-bottom: 34px;
+}
+
+@media (min-width: 576px) and (max-width: 1015px){
+    .brands__item.hidden:not(:nth-child(-n + 6)) {
+        display: none;
+    }
+}
+@media (min-width: 1016px) and (max-width: 1375px){
+    .brands__item.hidden:not(:nth-child(-n + 8)) {
+        display: none;
+    }
+}
+@media (min-width: 1376px) {
+    .brands__item.hidden:not(:nth-child(-n + 10)) {
+        display: none;
+    }
+}
+
 @media (min-width: 576px) {
-    .brands__container {
+    .homepage-brands {
         margin-right: 24px;
         margin-left: 24px;
     }
-    .brands .brands__nav {
-        margin-top: 24px;
-    }
-    .brands .brands__title {
-        height: 40px;
+    .brands .brands__container {
+        margin-top: 80px;
     }
     .brands .brands__list {
         flex-wrap: wrap;
@@ -591,19 +592,11 @@ address { font-style: normal; display: inherit}
         width: 224px;
     }
     .brands .brands__btn {
+        display: flex;
         margin-bottom: 14px;
     }
-    /*.brands .brands__btn::before {
-        content: "";
-        display: table;
-        width: 7.4px;
-        height: 11.3px;
-        background-image: url('/images/icons/icon.svg');
-        margin-right: 17.3px;
-    }*/
-    .brands .brands__title::after,
-    .brands .brands__title::before {
-        height: 56px;
+    .brands .brands__title {
+        padding-left: 24px;
     }
 
 }
