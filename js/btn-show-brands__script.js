@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 let brandsButtonShow = brands.querySelector('.brands__btn');
-let brandIconShow = brands.querySelector('.brands__text-show-more__icon')
+let brandIconShow = brands.querySelector('.brands__text-show-more-icon')
 
 brandsButtonShow.addEventListener("click", hiddenCloseClick);
 
