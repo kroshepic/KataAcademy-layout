@@ -459,10 +459,10 @@ body{
     text-transform: uppercase;
 }
 .brands .brands__title {
-    padding: 16px;
+    padding: 15px;
     box-sizing: border-box;
     background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
-
+    border-top: 1px solid #D9FFF5;
 }
 .brands .brands__title:hover::after {
     border-top: 1px solid #D9FFF5;
