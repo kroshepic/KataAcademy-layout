@@ -506,7 +506,7 @@ body{
 .brands-container--gradient {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: calc(100% - 16px);
 }
 .brands-container--gradient::after {
     content: '';
@@ -561,6 +561,9 @@ body{
 }
 
 @media (min-width: 576px) {
+    .brands-container--gradient {
+        width: 100%;
+    }
     .brands__container {
         margin-right: 24px;
         margin-left: 24px;
