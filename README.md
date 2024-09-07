@@ -1,3 +1,4 @@
+# [Link to site](https://kroshepic.github.io)
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
