@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4266d198-f42b-4f29-a34d-82652d74be3d" name="Changes" comment="Commit All" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kroshepic&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kroshepic/kroshepic.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;2bdc7eaa-7bc3-44e9-9948-fdb03efca988&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lkKcdBEM7auQjNmuRt9Zdq9VXm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "gh-pages",
+    "last_opened_file_path": "C:/Users/xalit/WebstormProjects/kroshepic.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xalit\WebstormProjects\kroshepic.github.io\src" />
+      <recent name="C:\Users\xalit\WebstormProjects\kroshepic.github.io\src\css" />
+      <recent name="C:\Users\xalit\WebstormProjects\kroshepic.github.io\src\js" />
+      <recent name="C:\Users\xalit\WebstormProjects\kroshepic.github.io" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xalit\WebstormProjects\kroshepic.github.io\src\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4266d198-f42b-4f29-a34d-82652d74be3d" name="Changes" comment="" />
+      <created>1725718714533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725718714533</updated>
+      <workItem from="1725718715593" duration="1115000" />
+      <workItem from="1725890565215" duration="196000" />
+      <workItem from="1725891547650" duration="2366000" />
+      <workItem from="1726072752641" duration="4127000" />
+      <workItem from="1726146651658" duration="99000" />
+      <workItem from="1726146754025" duration="420000" />
+      <workItem from="1726147190106" duration="168000" />
+      <workItem from="1726147446661" duration="32000" />
+      <workItem from="1726147546268" duration="5028000" />
+      <workItem from="1726681136573" duration="1973000" />
+    </task>
+    <task id="LOCAL-00001" summary="Commit All">
+      <option name="closed" value="true" />
+      <created>1725719399750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725719399750</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit All">
+      <option name="closed" value="true" />
+      <created>1725719565561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725719565561</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit All">
+      <option name="closed" value="true" />
+      <created>1726147632088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726147632088</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit All">
+      <option name="closed" value="true" />
+      <created>1726147699262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726147699262</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit All">
+      <option name="closed" value="true" />
+      <created>1726147730059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726147730059</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit All">
+      <option name="closed" value="true" />
+      <created>1726681693074</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726681693074</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Commit All">
+      <option name="closed" value="true" />
+      <created>1726681729990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726681729990</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit All" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit All" />
+  </component>
+</project>
